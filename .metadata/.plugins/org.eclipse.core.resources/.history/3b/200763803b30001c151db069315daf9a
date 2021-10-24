@@ -1,0 +1,19 @@
+package cons;
+
+public class OverloadCons2 {
+	private static double vol;
+
+	public static void main(String[] args) {
+	Box mybox1 = new Box (10, 20, 15);
+	Box mybox2 = new Box ();
+	Box mycube = new Box (7);
+	
+	Box myclone = new Box (mybox1);
+	
+	vol = mybox1.volume();
+	vol = mybox2.volume();
+	vol = mycube.volume();
+	vol = myclone.volume();
+}
+
+}

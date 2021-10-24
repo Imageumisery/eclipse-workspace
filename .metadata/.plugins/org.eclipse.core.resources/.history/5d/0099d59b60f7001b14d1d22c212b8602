@@ -1,0 +1,12 @@
+
+public class NameAgeIncome {
+    public static void main (String [] args){
+        String name = "Shakhzod";
+        int age = 23;
+        double AnnualPay = 2000000;
+        System.out.print("My name is " + name + ", my age is " + age + ". And I want to be payed " + AnnualPay);
+    }
+    public static void systeminp() {
+        
+    }
+}

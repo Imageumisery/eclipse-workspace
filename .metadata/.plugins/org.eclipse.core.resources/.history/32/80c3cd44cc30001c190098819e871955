@@ -1,0 +1,15 @@
+package cons;
+
+public class Calc {
+	int num 1 = getInt();
+	int num 2 = getInt();
+	char operation = getOperation();
+	int result = calc(num1, num2, operation);
+	System.out.println("Результат: " + result);
+	
+	
+	
+public static getInt() {
+	
+	}
+}

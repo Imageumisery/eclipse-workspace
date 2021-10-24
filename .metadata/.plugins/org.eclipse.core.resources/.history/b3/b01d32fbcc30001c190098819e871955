@@ -1,0 +1,28 @@
+package cons;
+import java.util.Scanner;
+
+public class Calc {
+	public static void main(String[] args) {
+		
+	
+	int num 1 = getInt();
+	int num 2 = getInt();
+	char operation = getOperation();
+	int result = calc(num1, num2, operation);
+	System.out.println("Результат: " + result);
+	
+}
+
+	
+public static getInt() {
+	System.out.println("Введите число: ");
+	int = num;
+	If(scanner.hasNextInt()) {
+		num = scanner.nextInt();
+	}
+	else {
+		scanner.next();
+		num = getInt();
+	}
+	return num;
+	}
